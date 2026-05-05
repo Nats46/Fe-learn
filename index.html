@@ -5,37 +5,62 @@
 </head>
 <body>
 
+<header>
     <h1>Hello, My name is Natanael</h1>
-
     <p>I am learning frontend development starting from HTML and CSS.</p>
+</header>
 
-    <h2>Things I can do</h2>
+<nav>
     <ul>
-        <li>Make a simple web page</li>
-        <li>Help on backend (Go, Rust, Python)</li>
-        <li>Help with SQL queries</li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
+</nav>
 
-    <h2>This is an image I like</h2>
-    <img src="./images/test.jpg" alt="An image I like">
+<main>
 
-    <h2>Contact Me</h2>
-    <a href="https://github.com/Nats46" target="_blank">GitHub</a><br>
-    <a href="https://www.linkedin.com/in/natanael-mursid-9754291b1" target="_blank">LinkedIn</a>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>This is an image I like</p>
+        <img src="./images/test.jpg" alt="An image I like">
+    </section>
 
-    <h2>Let's Be Friends</h2>
-    <form>
-        <label>Name:</label>
-        <input type="text" name="name" placeholder="Insert your name"></form><br>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>Make a simple web page</li>
+            <li>Help on backend (Go, Rust, Python)</li>
+            <li>Help with SQL queries</li>
+        </ul>
+    </section>
 
-        <label>Email:</label>
-        <input type="email" name="email" placeholder="Insert your email"><br>
+    <section id="contact">
+        <h2>Contact Me</h2>
 
-        <label>Message:</label>
-        <textarea name="message" placeholder="Insert your message"></textarea><br>
+        <a href="https://github.com/Nats46" target="_blank">GitHub</a><br>
+        <a href="https://www.linkedin.com/in/natanael-mursid-9754291b1" target="_blank">LinkedIn</a>
 
-        <button type="submit">Submit</button>
-    </form>
+        <h3>Let's Be Friends</h3>
+        <form>
+            <label>Name:</label><br>
+            <input type="text" name="name"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email"><br><br>
+
+            <label>Message:</label><br>
+            <textarea name="message"></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Natanael</p>
+</footer>
 
 </body>
 </html>
