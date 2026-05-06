@@ -2,16 +2,17 @@
 <html>
 <head>
     <title>Natanael Profile</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body class="body">
 
-<header>
-    <h1>Hello, My name is Natanael</h1>
-    <p>I am learning frontend development starting from HTML and CSS.</p>
+<header class="heading">
+    <h1 class="h1">Hello, My name is Natanael</h1>
+    <p class="p">I am learning frontend development starting from HTML and CSS.</p>
 </header>
 
-<nav>
-    <ul>
+<nav style="color:antiquewhite; font-size:16px;">
+    <ul style="list-style-type: none; display: flex; gap: 10px;">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -20,14 +21,14 @@
 
 <main>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>This is an image I like</p>
-        <img src="./images/test.jpg" alt="An image I like">
+    <section id="about" class="section">
+        <h2 class="h1">About Me</h2>
+        <p class="p">This is an image I like</p>
+        <img src="./images/test.jpg" style="width: 200px; height: 200px;" alt="An image I like">
     </section>
 
-    <section id="skills">
-        <h2>My Skills</h2>
+    <section id="skills" class="section">
+        <h2 class="h1">My Skills</h2>
         <ul>
             <li>Make a simple web page</li>
             <li>Help on backend (Go, Rust, Python)</li>
@@ -35,11 +36,11 @@
         </ul>
     </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
+    <section id="contact" class="section">
+        <h2 class="h1">Contact Me</h2>
 
-        <a href="https://github.com/Nats46" target="_blank">GitHub</a><br>
-        <a href="https://www.linkedin.com/in/natanael-mursid-9754291b1" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Nats46" >GitHub</a><br>
+        <a href="https://www.linkedin.com/in/natanael-mursid-9754291b1" >LinkedIn</a>
 
         <h3>Let's Be Friends</h3>
         <form>
@@ -59,7 +60,7 @@
 </main>
 
 <footer>
-    <p>© 2026 Natanael</p>
+    <p class="p">© 2026 Natanael</p>
 </footer>
 
 </body>
