@@ -9,6 +9,14 @@ header {
     text-align: center;
     color: white;
     padding: 20px;
+    border-bottom: 5px solid lightgray;
+    box-shadow: 0 5px 10px gray;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(255, 248, 239);
 }
 
 nav ul {
@@ -16,6 +24,21 @@ nav ul {
     display: flex;
     gap: 15px;
     padding: 10px;
+    word-spacing: 20px;
+    background-color: bisque;
+}
+
+nav li:hover{
+    background-color: blanchedalmond;
+    
+}
+
+img{
+    padding: 5px;
+    display: block;
+    margin: auto;
+    width: 200px;
+    border-radius: 10px;
 }
 
 a {
@@ -42,7 +65,12 @@ p {
     line-height: 1.5;
 }
 
-img {
-    width: 200px;
-    border-radius: 10px;
+
+section input,textarea{
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button:hover{
+    color: gray;
 }
